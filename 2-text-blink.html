@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blinking Text Demo</title>
+    <style>
+      @keyframes blinking {
+        0%{
+          color: #ff3d50;
+        }
+        /* YOU CAN ADD MORE COLORS IN THE KEYFRAMES IF YOU WANT
+        50%{
+          color: #55d66b;
+        }
+        */
+        100%{
+          color: #222291;
+        }
+      }
+      #demo{
+        font-size: 1.3em;
+        font-weight: bold;
+        /* NAME | TIME | ITERATION */
+        animation: blinking 1s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="demo">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget varius turpis. 
+      Nam id enim nec lacus dignissim fermentum. Proin faucibus congue erat, vel suscipit velit facilisis et.
+    </p>
+  </body>
+</html>

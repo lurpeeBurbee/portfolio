@@ -1,0 +1,155 @@
+p { text-align: center;
+color: white;
+font-size: 12px;
+ }
+a {
+font-color:white;
+}
+
+body {
+background-color:hsl(213, 80%, 0%);
+}
+
+.maindiv {
+background-image: url('images/background_wave.jpg');
+background-repeat: no-repeat;
+background-position: center; 
+height: 550px;
+width: 500px;
+background-color:hsl(213, 80%, 0%);
+padding:40px;
+text-align:center;
+}
+
+.divblack {
+border-width:0px;
+margin: 0 auto;
+width: 500px;
+height:80px;
+padding:0px;
+border-color:hsl(317, 100%, 63%);
+text-align:center;
+}
+
+.menu {
+border-width: 0px;
+margin: 0 auto;
+width: 495px;
+height:30px;
+padding:4px;
+border-color:hsl(317, 100%, 63%);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family:trebuchet ms;
+
+font-size: 12px;
+}
+
+.upperlights {
+border-width: 0px;
+border-radius: 50px;
+margin: 0 auto;
+padding: 0px;
+width: 495px;
+height: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+animation: blinking 1s infinite;
+}
+.buttons {
+
+border-width: 0px;
+border-radius: 25px;
+margin: 0 auto;
+padding: 0px;
+width: 100px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:hsl(260, 80%, 40%);
+color:white;
+}
+
+.middlepic {
+border-width:1px;
+border-color: white;
+border-radius: 10px;
+border-width: 1px;
+border-style: dotted;
+margin: 0 auto;
+padding: 0px;
+width: 495px;
+height: 355px;
+display: block;
+align-items: center;
+justify-content: center;
+text-align: justify;
+background-image:linear-gradient(45deg, rgba(193,70,161,1) 0%, rgba(0,0,0,1) 0%, 
+rgba(255,15,175,1) 100%);
+}
+
+#windowDiv {
+
+border-width: 0px;
+
+margin: 0 auto;
+padding:0px;
+width: 305px;
+height: 330px;
+display: block;
+align-items: center;
+justify-content: center;
+text-align: justify;
+}
+
+
+@keyframes blinking {
+        0%{
+          background-color: hsla(260, 60%, 40%, 1);
+          border: 1px solid #871924;
+        }
+        
+        
+        100%{
+          background-color: hsla(300, 60%, 40%, 1);
+          border: 2px solid #6565f2;
+        }
+      }
+.divblink{
+      	border-radius: 10px;
+        margin: 0 auto;
+        width: 495px;
+        height: 30px;
+        display: flex;
+      align-items: center;
+justify-content: center;
+text-align: justify;
+color: white;
+        animation: blinking 2s infinite;
+      }
+
+
+  @keyframes textblinking {
+        0%{
+          color: #ff3d10;
+        }
+      
+        100%{
+          color: #222291;
+        }
+      }
+ .uppertext{
+	font-size: 8px;
+	font-family: verdana;
+	font-weight: bold;
+	animation: textblinking 1s infinite;
+}     	       
+
+
+.foot {
+align-content: center;
+
+}
